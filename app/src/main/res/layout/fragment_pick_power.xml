@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context=".Fragments.PickPowerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="PICK A POWER"
+            android:textColor="#FBC82C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/turtleBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/turtle_power"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Turtle Power"
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/lightningBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/thors_hammer"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Lightning "
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/flightBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/super_man_crest"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Flight"
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/webBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/spider_web"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Web Slinging"
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/laserBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/laser_vision"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Laser Vision"
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/superBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button_rounded"
+            android:drawableLeft="@drawable/super_strength"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Super Strength"
+            android:textAllCaps="false"
+            android:textColor="#FBC82C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/showBackstoryBtn"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/show_backstory_button"
+            android:textColor="#10161D"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>
